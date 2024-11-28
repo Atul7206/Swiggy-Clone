@@ -1,0 +1,335 @@
+/* Header css */
+#logoo{
+    border-radius: 20%;
+    transition: transform .2s;
+}
+.nav{
+    position:fixed;
+    top: 0;
+    /* overflow: hidden; */
+    background-color: white;
+    width: 100%;
+    display:flex;
+    height: 80px;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 6px 10px 3px rgba(137, 137, 137, 0.3);
+    z-index: 4;
+
+}
+
+.left{
+    display:flex;
+    padding-right: 20px;
+    align-content: center;
+    align-items: center;
+    /* border: 2px dotted red; */
+    
+    /* background-color: blue; */
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+#searchee{
+    padding-left: 10px;
+    color: rgb(72,76,92);
+    font-size: 25px;
+}
+input{
+    height: 30px;
+    border-radius: 20px;
+    border: 0cap;
+    border: 1px solid rgb(72,76,92);
+}
+.tabs{
+    
+    display: flex;
+    /* justify-content: space-between; */
+    width: 650px;
+    height: 50px;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    margin-right:20px;
+    /* border: 2px dotted blue; */
+    
+
+}
+.tabs li img{
+    margin-right: 11px;
+    position: relative;
+    top:4px;
+}
+.tabs li{
+    /* width:6cm; */
+    display: flex;
+    align-content: center;
+    /* border: 1px solid black; */
+}
+.right{
+    padding-left: 300px;
+   float: right;
+}
+#ll{
+    color: rgb(72,76,92) ;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    font-weight: 4px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#tab:hover{
+    color: orangered;
+}
+#logoo:hover{
+   transform: scale(1.1);
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Center portion css */
+/* Portion class css */
+.portion{
+    padding-top: 90px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    /* border: 2px solid red; */
+    /* overflow: hidden;
+    white-space: nowrap; */
+    position: relative;
+
+}
+.text{
+    font-size: 30px;
+    font-family: Gilroy;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    /* padding-left: 30px; */
+}
+.foods{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    border-bottom: 2px solid rgb(226, 225, 225);
+    
+    overflow: hidden;
+    height: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.foods img{
+    width: 120px;
+    height: 120px;
+}
+#imggg{
+    color:rgb(98,98,98);
+    font-size: 20px;
+    text-align: center;
+    /* background-image: linear-gradient(rgba(0, 255, 255, 0),black); */
+
+}
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Restraunt class css */
+.foods2{
+    /* border: 2px dotted red; */
+    height: 300px;
+    /* border-bottom: 2px solid rgb(226, 225, 225); */
+    padding-left: 150px;
+    padding-right: 150px;
+}
+ #imgg{
+    height: 170px;
+    width: 270px;
+    border-radius: 10%;
+    background-image: linear-gradient(#1a1a1a,#faf6f6);
+    
+ }
+ #star{
+    height: 12px;
+    width: 12px;
+ }
+ #aa{
+    font-size: 20px;
+    font-family: Gilroy_bold;
+    line-height:30px;
+ }
+ .bb{
+    font-size: 17px;
+    color:rgb(72,76,92) ;
+    line-height: 20px;
+ }
+ .foods2{
+    display: flex;
+    /* position: relative; */
+    /* overflow: hidden; */
+    padding-top: 20px;
+ }
+ .container{
+    padding-right: 40px;
+    transition: transform .2s;
+    position: relative;
+    
+
+ }
+ .bottomleft{
+    position: absolute;
+    bottom: 130px;
+    border-radius: 20px;
+    left: 0px;
+    height: 80px;
+    width: 270px;
+    color: white;
+    font-size: 22px;
+    /* font-weight: 20px; */
+    text-align:center;
+    align-content:end;
+    background-image: linear-gradient( #1a1a1a00,#000000);
+ }
+ .container:hover{
+    transform: scale(.94);
+    z-index: 2;
+    
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+
+ /* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ /* portion 3rd css */
+ .nav2
+ {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    transition: transform .1s;
+
+    /* /* width: 5000px; */
+    height: 80px;
+
+    
+ }
+
+ 
+ .filter
+ {
+    font-family:  Arial;
+    font-size: medium;
+    /* padding-right: 30px; */
+    margin-right: 10px;
+    border: 1px solid rgb(217,218,219);
+    border-radius:20px;
+    width:100px;
+    color:rgb(65,68,73) ;
+    height:20px;
+    text-align: center;
+    padding-top: 5px;
+    
+    
+ }
+ 
+
+
+ /* Footer css */
+ .play
+ {
+    width: 190px;
+    height: 65px;
+
+ }
+ .app
+ {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 180px;
+    padding-right: 150px;
+    align-items: center;
+    color: rgb(61,64,71);
+    padding-top: 20px;
+    /* border: 2px dotted red; */
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ footer{
+    background-color: rgb(240,240,245);
+    display: grid;
+    /* padding: 40px 20px; */
+      color: #555;
+      font-family: Arial, Helvetica, sans-serif;
+ }
+ .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 5px;
+  }
+  .footer-column h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-column ul li {
+    margin: 5px 0;
+    padding-bottom: 7px;
+  }
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+  }
+  .footer-column ul li a:hover {
+    color: #f15a22;
+  }
+  .footer-social {
+    display: flex;
+    gap: 10px;
+    
+  }
+  .footer-social a img {
+    padding-top: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .aa{
+    padding-left: 480px;
+    display: flex;
+    gap: 270px;
+    background-color: transparent;
+    
+    
+    
+  }
